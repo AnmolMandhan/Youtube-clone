@@ -1,0 +1,31 @@
+.detail {
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.back-button {
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  border: none;
+  background: #202020;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.video-wrapper {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16/9;
+  margin-bottom: 20px;
+}
+
+.detail-channel {
+  font-size: 14px;
+  color: #606060;
+}
+
+.detail-desc {
+  margin-top: 10px;
+  font-size: 13px;
+}
