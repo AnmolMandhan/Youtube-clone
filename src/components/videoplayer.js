@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./videoplayer.css";
 
-const API_KEY = "AIzaSyBC_YCyivopFIx8GrkNRakcbfyqn5Z5FT8";   //  ← same key you use in App.js
+const API_KEY = "your api key here";   //  ← same key you use in App.js
 
 export default function VideoPlayer() {
   const { videoId } = useParams();          // route param from “/watch/:videoId”
