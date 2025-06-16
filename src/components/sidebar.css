@@ -1,1 +1,47 @@
+.sidebar {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 200px;
+  background: #fff;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+  padding-top: 10px;
+  z-index: 999;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.cat-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  color: #000;
+}
+
+.cat-btn .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.cat-btn.active {
+  background-color: #e62117;
+  color: white;
+}
+
+.toggle-btn {
+  margin: 0 10px;
+  padding: 6px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
