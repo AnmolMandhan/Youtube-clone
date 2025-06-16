@@ -1,4 +1,4 @@
-//AIzaSyBC_YCyivopFIx8GrkNRakcbfyqn5Z5FT8"
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
@@ -7,7 +7,7 @@ import Sidebar from "./components/Sidebar";
 import VideoPlayer from "./components/videoplayer";
 import "./App.css";
 
-const API_KEY = "AIzaSyBC_YCyivopFIx8GrkNRakcbfyqn5Z5FT8"; // Replace with yours
+const API_KEY = "your api key here"; // Replace with yours
 
 function Home({ category, setCategory }) {
   const [videos, setVideos] = useState([]);
